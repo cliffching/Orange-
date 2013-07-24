@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AABD6441737925F009E541D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AABD6431737925F009E541D /* UIKit.framework */; };
+		0AABD6461737925F009E541D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AABD6451737925F009E541D /* Foundation.framework */; };
+		0AABD6481737925F009E541D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AABD6471737925F009E541D /* CoreGraphics.framework */; };
+		0AABD64E1737925F009E541D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0AABD64C1737925F009E541D /* InfoPlist.strings */; };
+		0AABD6501737925F009E541D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AABD64F1737925F009E541D /* main.m */; };
+		0AABD6541737925F009E541D /* tabbarAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AABD6531737925F009E541D /* tabbarAppDelegate.m */; };
+		0AABD6561737925F009E541D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AABD6551737925F009E541D /* Default.png */; };
+		0AABD6581737925F009E541D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AABD6571737925F009E541D /* Default@2x.png */; };
+		0AABD65A1737925F009E541D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AABD6591737925F009E541D /* Default-568h@2x.png */; };
+		0AABD65D1737925F009E541D /* tabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AABD65C1737925F009E541D /* tabbarViewController.m */; };
+		0AABD6601737925F009E541D /* tabbarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AABD65E1737925F009E541D /* tabbarViewController.xib */; };
+		0AABD66817379315009E541D /* tabbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AABD66717379315009E541D /* tabbarView.m */; };
+		0AABD6761737949E009E541D /* tabbar_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AABD66A1737949E009E541D /* tabbar_0.png */; };
+		0AABD6771737949E009E541D /* tabbar_0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AABD66B1737949E009E541D /* tabbar_0@2x.png */; };
+		0AABD6781737949E009E541D /* tabbar_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AABD66C1737949E009E541D /* tabbar_1.png */; };
+		0AABD6791737949E009E541D /* tabbar_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AABD66D1737949E009E541D /* tabbar_1@2x.png */; };
+		0AABD67A1737949E009E541D /* tabbar_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AABD66E1737949E009E541D /* tabbar_3.png */; };
+		0AABD67B1737949E009E541D /* tabbar_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AABD66F1737949E009E541D /* tabbar_3@2x.png */; };
+		0AABD67C1737949E009E541D /* tabbar_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AABD6701737949E009E541D /* tabbar_4.png */; };
+		0AABD67D1737949E009E541D /* tabbar_4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AABD6711737949E009E541D /* tabbar_4@2x.png */; };
+		0AABD67E1737949E009E541D /* tabbar_mainbtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AABD6721737949E009E541D /* tabbar_mainbtn.png */; };
+		0AABD67F1737949E009E541D /* tabbar_mainbtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AABD6731737949E009E541D /* tabbar_mainbtn@2x.png */; };
+		0AABD6801737949E009E541D /* tabbar_mainbtn_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AABD6741737949E009E541D /* tabbar_mainbtn_bg.png */; };
+		0AABD6811737949E009E541D /* tabbar_mainbtn_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AABD6751737949E009E541D /* tabbar_mainbtn_bg@2x.png */; };
+		0AABD6851737B034009E541D /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AABD6831737B034009E541D /* FirstViewController.m */; };
+		0AABD6861737B034009E541D /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AABD6841737B034009E541D /* FirstViewController.xib */; };
+		0AABD68A1737B04C009E541D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AABD6881737B04C009E541D /* SecondViewController.m */; };
+		0AABD68B1737B04C009E541D /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AABD6891737B04C009E541D /* SecondViewController.xib */; };
+		3725ECD8179F75C000767AFA /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 3725ECCE179F75C000767AFA /* JSONKit.m */; };
+		3725ECD9179F75C000767AFA /* SinaWeibo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3725ECD0179F75C000767AFA /* SinaWeibo.bundle */; };
+		3725ECDA179F75C000767AFA /* SinaWeibo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3725ECD2179F75C000767AFA /* SinaWeibo.m */; };
+		3725ECDB179F75C000767AFA /* SinaWeiboAuthorizeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3725ECD4179F75C000767AFA /* SinaWeiboAuthorizeView.m */; };
+		3725ECDC179F75C000767AFA /* SinaWeiboRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3725ECD7179F75C000767AFA /* SinaWeiboRequest.m */; };
+		3725ECE3179F86E200767AFA /* button_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 3725ECDD179F86E200767AFA /* button_background.png */; };
+		3725ECE4179F86E200767AFA /* button_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3725ECDE179F86E200767AFA /* button_background@2x.png */; };
+		3725ECE5179F86E200767AFA /* button_background_disabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 3725ECDF179F86E200767AFA /* button_background_disabled.png */; };
+		3725ECE6179F86E200767AFA /* button_background_disabled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3725ECE0179F86E200767AFA /* button_background_disabled@2x.png */; };
+		3725ECE7179F86E200767AFA /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3725ECE1179F86E200767AFA /* logo.png */; };
+		3725ECE8179F86E200767AFA /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3725ECE2179F86E200767AFA /* logo@2x.png */; };
+		3725ECEB179F878800767AFA /* WeiBoData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3725ECEA179F878800767AFA /* WeiBoData.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0AABD6401737925F009E541D /* Orange+.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Orange+.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AABD6431737925F009E541D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0AABD6451737925F009E541D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0AABD6471737925F009E541D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0AABD64B1737925F009E541D /* tabbarTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tabbarTest-Info.plist"; sourceTree = "<group>"; };
+		0AABD64D1737925F009E541D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0AABD64F1737925F009E541D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0AABD6511737925F009E541D /* tabbarTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tabbarTest-Prefix.pch"; sourceTree = "<group>"; };
+		0AABD6521737925F009E541D /* tabbarAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tabbarAppDelegate.h; sourceTree = "<group>"; };
+		0AABD6531737925F009E541D /* tabbarAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tabbarAppDelegate.m; sourceTree = "<group>"; };
+		0AABD6551737925F009E541D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0AABD6571737925F009E541D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0AABD6591737925F009E541D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0AABD65B1737925F009E541D /* tabbarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tabbarViewController.h; sourceTree = "<group>"; };
+		0AABD65C1737925F009E541D /* tabbarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tabbarViewController.m; sourceTree = "<group>"; };
+		0AABD65F1737925F009E541D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/tabbarViewController.xib; sourceTree = "<group>"; };
+		0AABD66617379315009E541D /* tabbarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tabbarView.h; sourceTree = "<group>"; };
+		0AABD66717379315009E541D /* tabbarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tabbarView.m; sourceTree = "<group>"; };
+		0AABD66A1737949E009E541D /* tabbar_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_0.png; sourceTree = "<group>"; };
+		0AABD66B1737949E009E541D /* tabbar_0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_0@2x.png"; sourceTree = "<group>"; };
+		0AABD66C1737949E009E541D /* tabbar_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_1.png; sourceTree = "<group>"; };
+		0AABD66D1737949E009E541D /* tabbar_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_1@2x.png"; sourceTree = "<group>"; };
+		0AABD66E1737949E009E541D /* tabbar_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_3.png; sourceTree = "<group>"; };
+		0AABD66F1737949E009E541D /* tabbar_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_3@2x.png"; sourceTree = "<group>"; };
+		0AABD6701737949E009E541D /* tabbar_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_4.png; sourceTree = "<group>"; };
+		0AABD6711737949E009E541D /* tabbar_4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_4@2x.png"; sourceTree = "<group>"; };
+		0AABD6721737949E009E541D /* tabbar_mainbtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_mainbtn.png; sourceTree = "<group>"; };
+		0AABD6731737949E009E541D /* tabbar_mainbtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_mainbtn@2x.png"; sourceTree = "<group>"; };
+		0AABD6741737949E009E541D /* tabbar_mainbtn_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_mainbtn_bg.png; sourceTree = "<group>"; };
+		0AABD6751737949E009E541D /* tabbar_mainbtn_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_mainbtn_bg@2x.png"; sourceTree = "<group>"; };
+		0AABD6821737B034009E541D /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		0AABD6831737B034009E541D /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		0AABD6841737B034009E541D /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		0AABD6871737B04C009E541D /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		0AABD6881737B04C009E541D /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		0AABD6891737B04C009E541D /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		3725ECCD179F75C000767AFA /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		3725ECCE179F75C000767AFA /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		3725ECD0179F75C000767AFA /* SinaWeibo.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SinaWeibo.bundle; sourceTree = "<group>"; };
+		3725ECD1179F75C000767AFA /* SinaWeibo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaWeibo.h; sourceTree = "<group>"; };
+		3725ECD2179F75C000767AFA /* SinaWeibo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinaWeibo.m; sourceTree = "<group>"; };
+		3725ECD3179F75C000767AFA /* SinaWeiboAuthorizeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaWeiboAuthorizeView.h; sourceTree = "<group>"; };
+		3725ECD4179F75C000767AFA /* SinaWeiboAuthorizeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinaWeiboAuthorizeView.m; sourceTree = "<group>"; };
+		3725ECD5179F75C000767AFA /* SinaWeiboConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaWeiboConstants.h; sourceTree = "<group>"; };
+		3725ECD6179F75C000767AFA /* SinaWeiboRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaWeiboRequest.h; sourceTree = "<group>"; };
+		3725ECD7179F75C000767AFA /* SinaWeiboRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinaWeiboRequest.m; sourceTree = "<group>"; };
+		3725ECDD179F86E200767AFA /* button_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_background.png; sourceTree = "<group>"; };
+		3725ECDE179F86E200767AFA /* button_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_background@2x.png"; sourceTree = "<group>"; };
+		3725ECDF179F86E200767AFA /* button_background_disabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_background_disabled.png; sourceTree = "<group>"; };
+		3725ECE0179F86E200767AFA /* button_background_disabled@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_background_disabled@2x.png"; sourceTree = "<group>"; };
+		3725ECE1179F86E200767AFA /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		3725ECE2179F86E200767AFA /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
+		3725ECE9179F878800767AFA /* WeiBoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiBoData.h; sourceTree = "<group>"; };
+		3725ECEA179F878800767AFA /* WeiBoData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeiBoData.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AABD63D1737925F009E541D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AABD6441737925F009E541D /* UIKit.framework in Frameworks */,
+				0AABD6461737925F009E541D /* Foundation.framework in Frameworks */,
+				0AABD6481737925F009E541D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AABD6371737925E009E541D = {
+			isa = PBXGroup;
+			children = (
+				3725ECCC179F75C000767AFA /* JSONKit */,
+				3725ECCF179F75C000767AFA /* SinaWeibo */,
+				0AABD6491737925F009E541D /* tabbarTest */,
+				0AABD6421737925F009E541D /* Frameworks */,
+				0AABD6411737925F009E541D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0AABD6411737925F009E541D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AABD6401737925F009E541D /* Orange+.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0AABD6421737925F009E541D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AABD6431737925F009E541D /* UIKit.framework */,
+				0AABD6451737925F009E541D /* Foundation.framework */,
+				0AABD6471737925F009E541D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0AABD6491737925F009E541D /* tabbarTest */ = {
+			isa = PBXGroup;
+			children = (
+				0AABD6691737949E009E541D /* Image */,
+				0AABD6521737925F009E541D /* tabbarAppDelegate.h */,
+				0AABD6531737925F009E541D /* tabbarAppDelegate.m */,
+				0AABD65B1737925F009E541D /* tabbarViewController.h */,
+				0AABD65C1737925F009E541D /* tabbarViewController.m */,
+				0AABD65E1737925F009E541D /* tabbarViewController.xib */,
+				0AABD64A1737925F009E541D /* Supporting Files */,
+				0AABD66617379315009E541D /* tabbarView.h */,
+				0AABD66717379315009E541D /* tabbarView.m */,
+				0AABD6821737B034009E541D /* FirstViewController.h */,
+				0AABD6831737B034009E541D /* FirstViewController.m */,
+				0AABD6841737B034009E541D /* FirstViewController.xib */,
+				0AABD6871737B04C009E541D /* SecondViewController.h */,
+				0AABD6881737B04C009E541D /* SecondViewController.m */,
+				0AABD6891737B04C009E541D /* SecondViewController.xib */,
+				3725ECE9179F878800767AFA /* WeiBoData.h */,
+				3725ECEA179F878800767AFA /* WeiBoData.m */,
+			);
+			path = tabbarTest;
+			sourceTree = "<group>";
+		};
+		0AABD64A1737925F009E541D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AABD64B1737925F009E541D /* tabbarTest-Info.plist */,
+				0AABD64C1737925F009E541D /* InfoPlist.strings */,
+				0AABD64F1737925F009E541D /* main.m */,
+				0AABD6511737925F009E541D /* tabbarTest-Prefix.pch */,
+				0AABD6551737925F009E541D /* Default.png */,
+				0AABD6571737925F009E541D /* Default@2x.png */,
+				0AABD6591737925F009E541D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0AABD6691737949E009E541D /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				3725ECDD179F86E200767AFA /* button_background.png */,
+				3725ECDE179F86E200767AFA /* button_background@2x.png */,
+				3725ECDF179F86E200767AFA /* button_background_disabled.png */,
+				3725ECE0179F86E200767AFA /* button_background_disabled@2x.png */,
+				3725ECE1179F86E200767AFA /* logo.png */,
+				3725ECE2179F86E200767AFA /* logo@2x.png */,
+				0AABD66A1737949E009E541D /* tabbar_0.png */,
+				0AABD66B1737949E009E541D /* tabbar_0@2x.png */,
+				0AABD66C1737949E009E541D /* tabbar_1.png */,
+				0AABD66D1737949E009E541D /* tabbar_1@2x.png */,
+				0AABD66E1737949E009E541D /* tabbar_3.png */,
+				0AABD66F1737949E009E541D /* tabbar_3@2x.png */,
+				0AABD6701737949E009E541D /* tabbar_4.png */,
+				0AABD6711737949E009E541D /* tabbar_4@2x.png */,
+				0AABD6721737949E009E541D /* tabbar_mainbtn.png */,
+				0AABD6731737949E009E541D /* tabbar_mainbtn@2x.png */,
+				0AABD6741737949E009E541D /* tabbar_mainbtn_bg.png */,
+				0AABD6751737949E009E541D /* tabbar_mainbtn_bg@2x.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		3725ECCC179F75C000767AFA /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				3725ECCD179F75C000767AFA /* JSONKit.h */,
+				3725ECCE179F75C000767AFA /* JSONKit.m */,
+			);
+			name = JSONKit;
+			path = tabbarTest/JSONKit;
+			sourceTree = "<group>";
+		};
+		3725ECCF179F75C000767AFA /* SinaWeibo */ = {
+			isa = PBXGroup;
+			children = (
+				3725ECD0179F75C000767AFA /* SinaWeibo.bundle */,
+				3725ECD1179F75C000767AFA /* SinaWeibo.h */,
+				3725ECD2179F75C000767AFA /* SinaWeibo.m */,
+				3725ECD3179F75C000767AFA /* SinaWeiboAuthorizeView.h */,
+				3725ECD4179F75C000767AFA /* SinaWeiboAuthorizeView.m */,
+				3725ECD5179F75C000767AFA /* SinaWeiboConstants.h */,
+				3725ECD6179F75C000767AFA /* SinaWeiboRequest.h */,
+				3725ECD7179F75C000767AFA /* SinaWeiboRequest.m */,
+			);
+			name = SinaWeibo;
+			path = tabbarTest/SinaWeibo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0AABD63F1737925F009E541D /* Orange+ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AABD6631737925F009E541D /* Build configuration list for PBXNativeTarget "Orange+" */;
+			buildPhases = (
+				0AABD63C1737925F009E541D /* Sources */,
+				0AABD63D1737925F009E541D /* Frameworks */,
+				0AABD63E1737925F009E541D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Orange+";
+			productName = tabbarTest;
+			productReference = 0AABD6401737925F009E541D /* Orange+.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AABD6381737925E009E541D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = tabbar;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Kevin;
+			};
+			buildConfigurationList = 0AABD63B1737925E009E541D /* Build configuration list for PBXProject "Orange+" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0AABD6371737925E009E541D;
+			productRefGroup = 0AABD6411737925F009E541D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AABD63F1737925F009E541D /* Orange+ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AABD63E1737925F009E541D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AABD64E1737925F009E541D /* InfoPlist.strings in Resources */,
+				0AABD6561737925F009E541D /* Default.png in Resources */,
+				0AABD6581737925F009E541D /* Default@2x.png in Resources */,
+				0AABD65A1737925F009E541D /* Default-568h@2x.png in Resources */,
+				0AABD6601737925F009E541D /* tabbarViewController.xib in Resources */,
+				0AABD6761737949E009E541D /* tabbar_0.png in Resources */,
+				0AABD6771737949E009E541D /* tabbar_0@2x.png in Resources */,
+				0AABD6781737949E009E541D /* tabbar_1.png in Resources */,
+				0AABD6791737949E009E541D /* tabbar_1@2x.png in Resources */,
+				0AABD67A1737949E009E541D /* tabbar_3.png in Resources */,
+				0AABD67B1737949E009E541D /* tabbar_3@2x.png in Resources */,
+				0AABD67C1737949E009E541D /* tabbar_4.png in Resources */,
+				0AABD67D1737949E009E541D /* tabbar_4@2x.png in Resources */,
+				0AABD67E1737949E009E541D /* tabbar_mainbtn.png in Resources */,
+				0AABD67F1737949E009E541D /* tabbar_mainbtn@2x.png in Resources */,
+				0AABD6801737949E009E541D /* tabbar_mainbtn_bg.png in Resources */,
+				0AABD6811737949E009E541D /* tabbar_mainbtn_bg@2x.png in Resources */,
+				0AABD6861737B034009E541D /* FirstViewController.xib in Resources */,
+				0AABD68B1737B04C009E541D /* SecondViewController.xib in Resources */,
+				3725ECD9179F75C000767AFA /* SinaWeibo.bundle in Resources */,
+				3725ECE3179F86E200767AFA /* button_background.png in Resources */,
+				3725ECE4179F86E200767AFA /* button_background@2x.png in Resources */,
+				3725ECE5179F86E200767AFA /* button_background_disabled.png in Resources */,
+				3725ECE6179F86E200767AFA /* button_background_disabled@2x.png in Resources */,
+				3725ECE7179F86E200767AFA /* logo.png in Resources */,
+				3725ECE8179F86E200767AFA /* logo@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AABD63C1737925F009E541D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AABD6501737925F009E541D /* main.m in Sources */,
+				0AABD6541737925F009E541D /* tabbarAppDelegate.m in Sources */,
+				0AABD65D1737925F009E541D /* tabbarViewController.m in Sources */,
+				0AABD66817379315009E541D /* tabbarView.m in Sources */,
+				0AABD6851737B034009E541D /* FirstViewController.m in Sources */,
+				0AABD68A1737B04C009E541D /* SecondViewController.m in Sources */,
+				3725ECD8179F75C000767AFA /* JSONKit.m in Sources */,
+				3725ECDA179F75C000767AFA /* SinaWeibo.m in Sources */,
+				3725ECDB179F75C000767AFA /* SinaWeiboAuthorizeView.m in Sources */,
+				3725ECDC179F75C000767AFA /* SinaWeiboRequest.m in Sources */,
+				3725ECEB179F878800767AFA /* WeiBoData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0AABD64C1737925F009E541D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AABD64D1737925F009E541D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0AABD65E1737925F009E541D /* tabbarViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AABD65F1737925F009E541D /* en */,
+			);
+			name = tabbarViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0AABD6611737925F009E541D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0AABD6621737925F009E541D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0AABD6641737925F009E541D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tabbarTest/tabbarTest-Prefix.pch";
+				INFOPLIST_FILE = "tabbarTest/tabbarTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0AABD6651737925F009E541D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tabbarTest/tabbarTest-Prefix.pch";
+				INFOPLIST_FILE = "tabbarTest/tabbarTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AABD63B1737925E009E541D /* Build configuration list for PBXProject "Orange+" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AABD6611737925F009E541D /* Debug */,
+				0AABD6621737925F009E541D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AABD6631737925F009E541D /* Build configuration list for PBXNativeTarget "Orange+" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AABD6641737925F009E541D /* Debug */,
+				0AABD6651737925F009E541D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AABD6381737925E009E541D /* Project object */;
+}
